@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>New Template</title>
+
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
@@ -15,10 +18,17 @@
     
     <!-- Local Project Files -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="(max-width: 600px)" href="phone.css">
+    <link rel="stylesheet" media="(min-width: 601px)" href="tablet.css">
+    <link rel="stylesheet" media="(min-width: 1201px)" href="monitor.css">
+
     <script src="main.js"></script>
   </head>
+
   <body>
-    <h1>New Template</h1>
+    <div id="header">
+      <h1>New Template</h1>
+    </div>
     <p>Some kind of page content</p>
   </body>
 </html>
